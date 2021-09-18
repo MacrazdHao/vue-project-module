@@ -1,17 +1,65 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<html style="margin: 0;width: 100%;height: 100%;-webkit-text-size-adjust:auto im !important">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <!-- <meta name="viewport" content="width=device-width,initial-scale=1.0"> -->
+
+  <title>Veminar</title>
+  <style>
+    p {
+      margin: 0;
+    }
+    img {
+      user-select: none;
+    }
+    /* *::-webkit-scrollbar {
+      display: none;
+    } */
+    html::-webkit-scrollbar {
+      /*滚动条整体样式*/
+      width: 5px;
+      /*高宽分别对应横竖滚动条的尺寸*/
+      height: 5px;
+    }
+
+    html::-webkit-scrollbar-thumb {
+      /*滚动条里面小方块*/
+      /* border-radius: 10px; */
+      background: #4b77f6;
+    }
+
+    html::-webkit-scrollbar-track {
+      /*滚动条里面轨道*/
+      /* border-radius: 10px; */
+      background: rgba(#fff, 0);
+    }
+
+    *::-webkit-scrollbar {
+      /*滚动条整体样式*/
+      width: 5px;
+      /*高宽分别对应横竖滚动条的尺寸*/
+      height: 5px;
+    }
+
+    *::-webkit-scrollbar-thumb {
+      /*滚动条里面小方块*/
+      border-radius: 10px;
+      background: #d3d3d3;
+    }
+
+    *::-webkit-scrollbar-track {
+      /*滚动条里面轨道*/
+      border-radius: 10px;
+      background: rgba(#fff, 0);
+    }
+  </style>
+</head>
+
+<body style="margin: 0;width: 100%;height: 100%;">
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
 </html>
